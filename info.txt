@@ -7,3 +7,19 @@ Lo utilizamos para probar aplicaciones que no tengan un backend.
 Arrastramos a netlify la carpeta de dist y se lanza el front en el servidor.
 Nos genera este enalce, el cual se lo podemos compartir a cualquier persona https://app.netlify.com/sites/snazzy-cannoli-3d1084/overview
 Le cambiamos el nombre a la url: gif-expert-alexsabater.netlify.app
+
+Para subir un repositorio a github debemos:
+
+git init para inicializar el repositorio
+git add . prepara todos mis archivos para ser subidos.
+git commit -m "Primer Commit"
+git checkout --. Reconstrucción del código del último commit
+
+git branch -M main :Le cambiamos el nombre a la rama princiapl
+Ya tendriamos el repositorio en local, estando el código en la rama master.
+
+Debemos seguir estos pasos si ya tenemos el repositorio creado:
+
+git remote add origin https://github.com/alexsabater/react-gif-expert.git
+git branch -M main
+git push -u origin main
