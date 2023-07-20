@@ -1,0 +1,9 @@
+Para hacer el build de producción seguiremos los siguientes pasos:
+
+Si hacemos en la carpeta de un proyecto yarn install nos aseguramos de que tenemos tods los módulos.
+Con yarn build creamos la carpeta de distribución que va a ser lo que vamos a desplegar
+Utilizamos Netlify para probar de forma rápida nuestra aplicación en producción. 
+Lo utilizamos para probar aplicaciones que no tengan un backend.
+Arrastramos a netlify la carpeta de dist y se lanza el front en el servidor.
+Nos genera este enalce, el cual se lo podemos compartir a cualquier persona https://app.netlify.com/sites/snazzy-cannoli-3d1084/overview
+Le cambiamos el nombre a la url: gif-expert-alexsabater.netlify.app
