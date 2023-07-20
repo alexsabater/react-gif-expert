@@ -25,3 +25,5 @@ git branch -M main
 git push -u origin main
 
 Para hostear en github pages nuestra aplicación debemos cambiar la carpeta dist a docs
+
+Para poder desplegar en github pages debo poner ./ en index.html dentro de docs: en el href y el src.
